@@ -22,7 +22,7 @@ export const metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
   title: {
     template: `%s | ${siteMetadata.title}`,
-    default: siteMetadata.title, // a default is required when creating a template
+    default: siteMetadata.title,
   },
   description: siteMetadata.description,
   openGraph: {
@@ -56,6 +56,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* Explicitly adding favicon */}
+        <link rel="icon" href="/favicon.png" type="image/png" />
+      </head>
       <body
         className={cx(
           inter.variable,
