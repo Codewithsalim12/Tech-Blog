@@ -1,8 +1,10 @@
 # Next.js Blog Tutorial: Build SEO Optimized Personal Blog with Next.js, Contentlayer, and Tailwind CSS 🔥
 
+
 For Demo checkout following links👇: <br />
 https://tech-blog-ten-iota.vercel.app/ <br
 
+https://tech-blog-ten-iota.vercel.app/ <br 
 ---
 
 ### ⭐DO NOT FORGET TO STAR THIS REPO⭐
